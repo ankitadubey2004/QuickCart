@@ -1,0 +1,66 @@
+.welcome-child {
+  	position: absolute;
+  	top: 0px;
+  	left: 0.5px;
+  	width: 413.5px;
+  	height: 574.6px;
+}
+.quick-cart {
+  	position: absolute;
+  	top: 89px;
+  	left: calc(50% - 130px);
+  	text-align: left;
+  	display: inline-block;
+  	width: 261px;
+  	height: 59px;
+}
+.your-everyday-groceries {
+  	margin: 0;
+}
+.your-everyday-groceries-container {
+  	position: absolute;
+  	top: 616px;
+  	left: calc(50% - 189px);
+  	font-size: 22px;
+  	letter-spacing: 0.33em;
+}
+.welcome-item {
+  	position: absolute;
+  	top: 730px;
+  	left: calc(50% - 185px);
+  	border-radius: 12px;
+  	background: linear-gradient(90deg, #b8e2fa, #6cb1da 47.12%, #6cb1da);
+  	width: 371px;
+  	height: 53px;
+}
+.get-started {
+  	position: absolute;
+  	top: 745px;
+  	left: calc(50% - 81px);
+  	font-size: 24px;
+  	font-weight: 500;
+  	font-family: Inter;
+  	color: #fff;
+  	display: inline-block;
+  	width: 163px;
+  	height: 23px;
+}
+.welcome-inner {
+  	position: absolute;
+  	top: 207px;
+  	left: 50px;
+  	width: 276.3px;
+  	height: 308.6px;
+}
+.welcome {
+  	width: 100%;
+  	position: relative;
+  	background-color: #f2f1f1;
+  	height: 896px;
+  	overflow: hidden;
+  	text-align: center;
+  	font-size: 64px;
+  	color: #000;
+  	font-family: 'Lobster Two';
+}
+
