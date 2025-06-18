@@ -1,0 +1,239 @@
+.sign-up-child {
+  	position: absolute;
+  	top: 29px;
+  	left: calc(50% - 196px);
+  	filter: blur(0px);
+  	border-radius: 31px;
+  	background-color: #fff;
+  	width: 392px;
+  	height: 839px;
+}
+.log-in-to {
+  	position: absolute;
+  	top: 153px;
+  	left: calc(50% - 158px);
+  	font-size: 28px;
+  	font-weight: 800;
+  	color: #6cb1da;
+  	text-align: center;
+  	display: inline-block;
+  	width: 316px;
+  	height: 48px;
+}
+.email-address {
+  	position: absolute;
+  	top: 221px;
+  	left: 35px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 148px;
+  	height: 17px;
+}
+.password {
+  	position: absolute;
+  	top: 319px;
+  	left: 35px;
+  	font-weight: 500;
+  	display: inline-block;
+  	width: 148px;
+  	height: 17px;
+}
+.sign-up-item {
+  	position: absolute;
+  	top: 246px;
+  	left: 31px;
+  	border-radius: 10px;
+  	background-color: white;
+  	border: 1px solid #bdbdbd;
+  	box-sizing: border-box;
+  	width: 358px;
+  	height: 50px;
+}
+.sign-up-inner {
+  	position: absolute;
+  	top: 344px;
+  	left: 31px;
+  	border-radius: 10px;
+  	background-color: white;
+  	border: 1px solid #bdbdbd;
+  	box-sizing: border-box;
+  	width: 358px;
+  	height: 50px;
+}
+.your-email {
+  	position: absolute;
+  	top: 259px;
+  	left: 44px;
+  	font-size: 13px;
+  	color: #a6a6a6;
+  	display: inline-block;
+  	width: 65px;
+  	height: 14px;
+}
+.enter-your-passsword {
+  	position: absolute;
+  	top: 357px;
+  	left: 44px;
+  	font-size: 13px;
+  	color: #a6a6a6;
+  	display: inline-block;
+  	width: 139px;
+  	height: 14px;
+}
+.group-icon {
+  	position: absolute;
+  	top: 357.81px;
+  	left: 354px;
+  	width: 20px;
+  	height: 16.3px;
+}
+.forget-password {
+  	position: absolute;
+  	top: 395px;
+  	left: 281px;
+  	font-size: 12px;
+  	font-weight: 600;
+  	color: #6cb1da;
+  	display: inline-block;
+  	width: 108px;
+  	height: 14px;
+}
+.rectangle-div {
+  	position: absolute;
+  	top: 448px;
+  	left: 25px;
+  	box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  	border-radius: 10px;
+  	background: linear-gradient(90deg, #b8e2fa, #6cb1da 48.08%, #6cb1da);
+  	width: 358px;
+  	height: 51px;
+}
+.login {
+  	position: absolute;
+  	top: 465px;
+  	left: calc(50% - 22px);
+  	font-weight: 600;
+  	color: #fff;
+  	display: inline-block;
+  	width: 44px;
+  	height: 17px;
+}
+.sign-up-child1 {
+  	position: absolute;
+  	top: 652px;
+  	left: calc(50% - 171px);
+  	border-radius: 6px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 1px solid #7d7d7d;
+  	box-sizing: border-box;
+  	width: 332px;
+  	height: 54px;
+}
+.sign-up-child2 {
+  	position: absolute;
+  	top: 714px;
+  	left: calc(50% - 171px);
+  	border-radius: 6px;
+  	background-color: rgba(217, 217, 217, 0);
+  	border: 1px solid #7d7d7d;
+  	box-sizing: border-box;
+  	width: 332px;
+  	height: 54px;
+}
+.google-2015-g-logo-icon {
+  	position: absolute;
+  	top: 661px;
+  	left: 114px;
+  	width: 37px;
+  	height: 37px;
+  	object-fit: cover;
+}
+.google-2015-g-logo-icon1 {
+  	position: absolute;
+  	top: 725px;
+  	left: 119px;
+  	width: 28px;
+  	height: 28px;
+  	object-fit: cover;
+}
+.sign-in-with {
+  	position: absolute;
+  	top: 671px;
+  	left: 157px;
+  	font-size: 14px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 147px;
+  	height: 15px;
+}
+.sign-in-with1 {
+  	position: absolute;
+  	top: 733px;
+  	left: 157px;
+  	font-size: 14px;
+  	font-weight: 600;
+  	display: inline-block;
+  	width: 147px;
+  	height: 15px;
+}
+.or-with {
+  	position: absolute;
+  	top: 612px;
+  	left: calc(50% - 24px);
+  	font-size: 12px;
+  	color: #8e8e8e;
+  	display: inline-block;
+  	width: 42px;
+  	height: 14px;
+}
+.line-div {
+  	position: absolute;
+  	top: 619.8px;
+  	left: 10.8px;
+  	border-top: 0.4px solid #a4a4a4;
+  	box-sizing: border-box;
+  	width: 166.4px;
+  	height: 0.4px;
+}
+.sign-up-child3 {
+  	position: absolute;
+  	top: 619.8px;
+  	left: 230.8px;
+  	border-top: 0.4px solid #a4a4a4;
+  	box-sizing: border-box;
+  	width: 172.4px;
+  	height: 0.4px;
+}
+.sign-up1 {
+  	font-weight: 600;
+  	color: #6cb1da;
+}
+.dont-have-an-container {
+  	position: absolute;
+  	top: 514px;
+  	left: calc(50% - 109px);
+  	font-size: 14px;
+  	display: inline-block;
+  	width: 219px;
+  	height: 14px;
+  	color: #8e8e8e;
+}
+.sign-up-child4 {
+  	position: absolute;
+  	top: 66px;
+  	left: 170px;
+  	width: 74.3px;
+  	height: 83px;
+}
+.sign-up {
+  	width: 100%;
+  	position: relative;
+  	background-color: #6cb1da;
+  	height: 896px;
+  	overflow: hidden;
+  	text-align: left;
+  	font-size: 16px;
+  	color: #000;
+  	font-family: Inter;
+}
+
