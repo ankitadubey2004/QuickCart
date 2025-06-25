@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+	<link rel="stylesheet" href="checkout.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" />
+
+
+
+</head>
+
+<body>
+
+	<div class="checkout">
+		<div class="top-bar">
+			<button class="arrow-btn" onclick="window.location.href='cart.html'">
+				<i class="fas fa-arrow-left"></i> Back
+			</button>
+			<i class="fas fa-shopping-cart cart-icon" style="cursor: pointer;"
+				onclick="window.location.href='checkout.html'"></i>
+		</div>
+
+		<div class="cart">Cart</div>
+		<div class="dwarka-delhi">Dwarka, Delhi...</div>
+		<div class="delivery-address">Delivery Address</div>
+		<div class="items-in-your">Items in your cart</div>
+		<img class="checkout-child" alt="" src="assets/location 1.png">
+
+
+		<div class="checkout-inner">
+		</div>
+		<div class="add-more-parent">
+			<div class="add-more">Add more</div>
+			<img class="group-child" alt="" src="assets/add 1.png">
+
+		</div>
+
+		<div id="checkout-items" class="space-y-4"></div>
+
+
+		<button id="checkout-btn" class="checkout-button" disabled>Checkout</button>
+
+		<script src="checkout.js"></script>
+</body>
+
+</html>
