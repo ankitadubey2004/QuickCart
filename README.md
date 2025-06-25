@@ -45,10 +45,15 @@ As part of my Software Developer Internship, I was responsible for building the 
 
 ## 📂 Deliverables (as per task)
 ✅ Mobile-first frontend codebase
+
 ✅ Integrated backend APIs with secure token handling
+
 ✅ Deployed frontend app
+
 ✅ Fully working cart & checkout flow
+
 ✅ Order confirmation, tracking & history screens
+
 ✅ README documentation
 
 ---
