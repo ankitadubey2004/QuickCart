@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Cart</title>
+  <script defer src="cart.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="cart.css">
+</head>
+
+<body>
+  <div class="cart-container">
+
+<div class="top-bar">
+  <button class="arrow-btn" onclick="window.location.href='login.html'">
+    <i class="fas fa-arrow-left"></i> Back
+  </button>
+  <i class="fas fa-shopping-cart cart-icon" style="cursor: pointer;" onclick="window.location.href='checkout.html'"></i>
+</div>
+
+        <!-- Offer Banner Section -->
+        <div class="offer-banner">
+          <div class="offer-text">
+            <h2>🎉 Get 30% Off!</h2>
+            <p>On your first order — limited time only</p>
+            <button class="add-btn">Explore</button>
+          </div>
+          <div class="offer-image">
+            <img src="assets/main.png" alt="Discount Offer" />
+          </div>
+        </div>
+        <div class="one-click-cart">
+          <button class="one-click-btn">
+            <i class="fas fa-bolt"></i> Create My 1-Click Cart +
+          </button>
+        </div>
+
+
+        <div class="cart-box">
+
+          <div class="quick-add">
+            <h3 class="quick-add-title">Quick Add Items</h3>
+            <div class="user-cart">
+              <!-- <h2 class="cart-heading"> 🛒</h2> -->
+              <ul id="cart-list"></ul>
+            </div>
+
+            <div class="item">
+              <div class="item-info">
+                <img src="assets/2.jpg" alt="Milk" />
+                <p>Milk</p>
+              </div>
+              <button class="add-btn" onclick="addToCart('milk')">Add to Cart</button>
+            </div>
+
+            <div class="item">
+              <div class="item-info">
+                <img src="assets/12.jpg" alt="Bread" />
+                <p>Bread</p>
+              </div>
+              <button class="add-btn" onclick="addToCart('bread')">Add to Cart</button>
+            </div>
+
+            <div class="item">
+              <div class="item-info">
+                <img src="assets/22.jpeg" alt="Eggs" />
+                <p>Eggs</p>
+              </div>
+              <button class="add-btn" onclick="addToCart('eggs')">Add to Cart</button>
+            </div>
+
+            <div class="item">
+              <div class="item-info">
+                <img src="assets/20.png" alt="Coffee" />
+                <p>Coffee</p>
+              </div>
+              <button class="add-btn" onclick="addToCart('coffee')">Add to Cart</button>
+            </div>
+
+            <div class="item">
+              <div class="item-info">
+                <img src="assets/26.jpeg" alt="Maggi" />
+                <p>Maggi</p>
+              </div>
+              <button class="add-btn" onclick="addToCart('maggi')">Add to Cart</button>
+            </div>
+
+            <div class="item">
+              <div class="item-info">
+                <img src="assets/28.png" alt="Chips" />
+                <p>Chips</p>
+              </div>
+              <button class="add-btn" onclick="addToCart('chips')">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="suggested-box">
+          <h2 class="cart-heading">You Might Like 👀</h2>
+          <ul id="suggestion-list" class="space-y-2"></ul>
+        </div>
+
+
+
+  </div>
+</body>
+
+</html>
