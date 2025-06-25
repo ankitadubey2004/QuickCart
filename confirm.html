@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Order Confirmed</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+  body {
+    background: #e0f7fa; /* soft pastel blue */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #064663;
+  }
+
+  .circle {
+    background-color: #6cb1da; /* cute mint green */
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 15px rgba(34, 136, 176, 0.4);
+    animation: popIn 0.6s ease forwards;
+  }
+
+  /* tick mark styling */
+  .tick {
+    width: 60px;
+    height: 60px;
+    border: solid #fff;
+    border-width: 0 8px 8px 0;
+    display: inline-block;
+    transform: rotate(45deg);
+    animation: tickDraw 0.5s ease forwards;
+  }
+
+  h1 {
+    margin-top: 30px;
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #064663;
+    animation: fadeInUp 0.6s ease forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  button {
+    margin-top: 30px;
+    background: #6cb1da;
+    color: white;
+    border: none;
+    padding: 14px 40px;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(43, 146, 181, 0.4);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 0.8s ease forwards;
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  button:hover {
+    background: #6cb1da;
+    box-shadow: 0 8px 20px rgba(45, 128, 173, 0.6);
+  }
+
+  /* Animations */
+  @keyframes tickDraw {
+    from { border-color: transparent; }
+    to { border-color: white; }
+  }
+
+  @keyframes popIn {
+    0% { transform: scale(0); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
+</head>
+<body>
+
+  <div class="circle">
+    <i class="tick"></i>
+  </div>
+
+  <h1>Order Confirmed!</h1>
+
+  <button onclick="location.href='index.html'">Go to Home</button>
+
+</body>
+</html>
+

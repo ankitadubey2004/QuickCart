@@ -4,6 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, width=device-width">
+      <title>Login Page</title>
+
 
     <link rel="stylesheet" href="login.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" />
@@ -23,8 +25,9 @@
 
   <!-- ✅ Replace input containers with actual form -->
   <form id="loginForm">
-    <input type="email" id="email" name="email" class="sign-up-item" placeholder="Your email" required />
-    <input type="password" id="password" name="password" class="sign-up-inner" placeholder="Enter your password" required />
+    <input type="email" id="email" name="email" class="sign-up-item" placeholder="Your email" required autocomplete="email" />
+<input type="password" id="password" name="password" class="sign-up-inner" placeholder="Enter your password" required autocomplete="current-password" />
+
 
     <div class="forget-password">Forget password?</div>
     <button type="submit" class="rectangle-div"></button>
