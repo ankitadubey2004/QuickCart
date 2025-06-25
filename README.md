@@ -58,8 +58,6 @@ As part of my Software Developer Internship, I was responsible for building the 
 
 ---
 
-## 🔁 Admin View
-
 ## 👩‍💻 Developer
 - **Intern** : Ankita Dubey
 - **Project** : QuickCart – A Smart, Minimal One-Click Grocery Checkout App
